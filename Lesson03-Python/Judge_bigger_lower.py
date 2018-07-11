@@ -1,11 +1,11 @@
 def f (x,y):
     if(x>y):
-        print(x,'>',y)
+        return "a>b"
     elif(x==y):
-        print(x,'=',y)
+        return "a=b"
     elif(x<y):
-        print(x,'<',y)
+        return "a<b"
 
-a=1
-b=2
-f(a,b)
+a=2
+b=3
+print(f(a,b))
