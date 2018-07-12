@@ -4,4 +4,4 @@ def f(n):
         return 1
     return f(n-1)*n
 
-print(f(6))
+print(f(7))

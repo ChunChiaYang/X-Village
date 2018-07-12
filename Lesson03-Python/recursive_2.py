@@ -5,4 +5,4 @@ def f (n):
         return 0
     return f(n-1)+f(n-2)
 
-print(f(20))
+print(f(6))
